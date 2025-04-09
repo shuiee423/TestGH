@@ -9,14 +9,14 @@ function Login() {
         <h2>Login</h2>
         <form>
           <input type="numbers" placeholder="School ID" required />
-          <input type="email" placeholder="Email Account" required />
+          <input type="email" placeholder="Email-Account" required />
           <button type="submit">Login</button>
 
           <div className="divider">
             <h1>or</h1>
           </div>
 
-          <div className="signup">
+          <div className="sign up">
             <h2>Don't have an account?</h2>
             <Link to="/signup">
               <button type="button">Sign Up</button>
